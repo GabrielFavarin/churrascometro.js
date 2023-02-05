@@ -1,10 +1,12 @@
 .container{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 300px;
-    margin: auto;
-    background-color: aliceblue;
+    background-color: #FFFFFFBB;
     padding: 20px;
     border-radius: 10px;
+    margin: auto;
+    float: none;
+    margin-top: 10%;
 }
 
 h1{
@@ -20,5 +22,15 @@ input{
 }
 
 body{
-    background-color: aqua;
+    background: url(../styles/images/churrasco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 500px){
+
+    .container{
+        margin: auto;
+    }
+    
 }
